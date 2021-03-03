@@ -66,10 +66,10 @@ export class SortingVizualize extends React.Component {
 
         return (
             <>
-                <header>
-                    <nav>
-                        <button onClick={() => this.resetArray()}>Generate New Array</button>
-                        <button onClick={() => this.mergeSort()}>Merge Sort</button>
+                <header className="header">
+                    <nav className="header__nav">
+                        <button className="header__algorithmButton" onClick={() => this.resetArray()}>Generate New Array</button>
+                        <button className="header__algorithmButton" onClick={() => this.mergeSort()}>Merge Sort</button>
                     </nav>
                 </header>
                 <div className="array-container">

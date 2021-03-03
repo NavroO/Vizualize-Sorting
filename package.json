@@ -1,5 +1,5 @@
 {
-  "homepage":"http://{navroo}.github.io/{Vizualize-Sorting}",
+  "homepage": "http://{navroo}.github.io/{Vizualize-Sorting}",
   "name": "client",
   "version": "0.1.0",
   "private": true,
